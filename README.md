@@ -3,7 +3,7 @@
 ## Descrição:
 
 Nesse projeto realizado em equipe foi desenvolvido uma aplicação backend voltada para a estruturação de uma api de marketplace,com o objetivo de facilitar o usuário a cadastrar sua empresa de uma maneira simples e dinâmica no site da sua empresa, com o auxílio de regras de negócios que deixam a aplicação mais segura e eficaz.
-A aplicação contou com a alimentação de bibliotecas como a do mercadopago e gerencianet para o desenvolvimento da funcionalidade de pagamento.
+A aplicação contou com a utilização de bibliotecas como a do mercadopago e gerencianet para o desenvolvimento da funcionalidade de pagamento.
 
 ## Regras de negócio utilizadas na aplicação:
 
