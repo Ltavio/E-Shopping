@@ -12,6 +12,16 @@ A aplicação contou com a alimentação de bibliotecas como a do mercadopago e 
 - Usuários apenas poderão prosseguir com produtos para o carrinho, com suas contas de usuários logadas e autenticadas.
 - Apenas usuários admin têm privilégios nos acessos das rotas da aplicação. 
 
+## Link deploy da aplicação:
+
+- https://e-commerce-api-m0va.onrender.com/
+
+### Para inicializar a aplicação (local):
+
+````
+python manage.py runserver
+````
+
 ## Tecnologias utilizadas:
 
 - black
@@ -64,78 +74,3 @@ A aplicação contou com a alimentação de bibliotecas como a do mercadopago e 
 ## Fluxograma da aplicação:
 
 ![fluxo grama E-Shopping](https://user-images.githubusercontent.com/96259892/212782222-3e5a728a-d11f-4899-aa14-ba1176bc475f.png)
-
-## Endpoints do serviço:
-
-<table>
-    <thead>
-        <tr>
-            <th>Método</th>
-            <th>Endpoint</th>
-            <th>Responsabilidade</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>POST</td>
-            <td>/users</td>
-            <td>Criação de usuário</td>
-        </tr>
-        <tr>
-            <td>GET</td>
-            <td>/users</td>
-            <td>Lista todos os usuários</td>
-        </tr>
-        <tr>
-            <td>PATCH</td>
-            <td>/users</td>
-            <td>Atualiza um usuário</td>
-        </tr>
-        <tr>
-            <td>DELETE</td>
-            <td>/users/:id</td>
-            <td>Realiza um soft delete no usuário</td>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/login</td>
-            <td>Gera o token de autenticação</td>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/categories</td>
-            <td>Criação de categoria</td>
-        </tr>
-        <tr>
-            <td>GET</td>
-            <td>/categories/:id/properties</td>
-            <td>Lista todos imóveis que pertencem a uma categoria</td>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/properties</td>
-            <td>Criação de um imóvel</td>
-        </tr>
-        <tr>
-            <td>GET</td>
-            <td>/properties</td>
-            <td>Lista todos os imóveis</td>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/schedules</td>
-            <td>Agenda uma visita a um imóvel</td>
-        </tr>
-        <tr>
-            <td>GET</td>
-            <td>/schedules/properties/:id</td>
-            <td>lista todos os agendamentos de um imóvel</td>
-        </tr>
-    </tbody>
-</table>
-
-### Para inicializar a aplicação:
-
-````
-yarn dev
-````
